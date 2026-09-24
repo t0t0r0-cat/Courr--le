@@ -1,0 +1,110 @@
+@media screen and (min-width: 200px) and (max-width: 400px) {
+    img { display: none; }
+}
+
+@media screen {
+  * {
+    font-size   : 12px;
+    background-color: #EDC9FF;
+    text-align: center;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-size: 120%;
+  color: #874392;
+}
+
+#Story p{
+  background-color: #B98DE1;
+  color: white;
+}
+
+h1 {
+  font-size: xx-large;
+  text-align: center;
+  color: #874392;
+}
+
+h2 {
+  font-size: medium;
+}
+
+#Story h2 {
+  background-color: #B98DE1;
+  color: white;
+}
+
+#Story {
+  background-color: #B98DE1;
+  padding: 1%;
+  border-radius: 2%;
+}
+
+#StoryPadding {
+  padding-bottom: 5%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+#CtaBtn {
+  text-decoration: none;
+  border-radius: 2.5%;
+  background-color: #9A66D5;
+  color: #DFA952;
+  text-align: center;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  transition: transform 0.2s ease;
+}
+
+#CtaBtn:hover {
+  text-decoration: none;
+  background-color: #B370BD;
+  color: #FFC849;
+  transform: scale(1.05);
+}
+
+#CtaBtnPadding {
+  background-color: #B98DE1;
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+@media print {
+  p {
+    font-family : garamond, serif;
+    font-size : 10px;
+  }
+    img {
+    display:none
+  }
+}
+
+ /* For smart phones */
+@media screen and (max-width: 600px) {
+}
+
+/* For tablets */
+@media screen and (min-width: 600px) and (max-width: 900px) {
+}
+
+/* For desktop computers */
+@media screen and (min-width: 900px) {
+} 
+
+ /* Device dimensions */
+@media screen and (max-device-height: 600px) {
+}
+
+/* Device orientation */
+@media screen and (orientation: portrait) {
+}
+
+/* Device aspect ratio */
+@media screen and (device-aspect-ratio: 16/9) {
+} 
