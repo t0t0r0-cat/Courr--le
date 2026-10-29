@@ -8,4 +8,4 @@ You change one thing in the source css files or html layout and you wonder why t
 ### setup and running:
 clone the git repo ``git clone github.com/t0t0r0-cat/Courr--le``
 go to the project dir, usually here ``cd Courr--le``
-run ``generate.py`` with ``python generate.py`` || duh! || 
+run ``generate.py`` with ``python generate.py`` duh!
